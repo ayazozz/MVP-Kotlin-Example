@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backgroundColor"
+        tools:ignore="PrivateResource"
+        tools:context=".ui.displayRecipeDetails.DisplayRecipeDetails">
+
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recipe_title"
+            android:gravity="top|center"
+            android:padding="5dp"
+            android:paddingBottom="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="0dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_dark"/>
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recipe_img"
+            android:paddingTop="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_alignLeft="@+id/recipe_title"
+            android:layout_alignStart="@+id/recipe_title"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_below="@+id/recipe_title"
+            android:layout_alignRight="@+id/recipe_title"
+            android:layout_alignEnd="@+id/recipe_title"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/recipe_chef"
+              android:gravity="center|right"
+              android:layout_marginRight="0dp"
+              android:layout_marginEnd="0dp"
+              android:layout_marginTop="0dp"
+              android:layout_below="@+id/recipe_img"
+              android:layout_marginLeft="0dp"
+              android:layout_marginStart="0dp"
+              android:layout_alignLeft="@+id/recipe_img"
+              android:layout_alignStart="@+id/recipe_img"
+              android:layout_alignRight="@+id/recipe_img"
+              android:layout_alignEnd="@+id/recipe_img"
+              android:textStyle="bold|italic" android:textColor="@android:color/holo_orange_dark"/>
+    <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rescipe_description"
+            android:gravity="center"
+            android:padding="5dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginTop="8dp"
+            android:layout_below="@+id/recipe_chef"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_alignLeft="@+id/recipe_chef"
+            android:layout_alignStart="@+id/recipe_chef"
+            android:layout_alignRight="@+id/recipe_chef"
+            android:layout_alignEnd="@+id/recipe_chef" android:textSize="14sp"/>
+    <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tag_list_view"
+            android:layout_marginTop="8dp"
+            android:layout_below="@+id/rescipe_description"
+            android:layout_alignLeft="@+id/rescipe_description"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_alignStart="@+id/rescipe_description"
+            android:layout_alignRight="@+id/rescipe_description"
+            android:layout_marginRight="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_alignEnd="@+id/rescipe_description"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp">
+
+    </ListView>
+
+
+</RelativeLayout>
