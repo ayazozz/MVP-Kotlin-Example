@@ -7,7 +7,8 @@ This mobile application shows recipes. Also, you can view details of recipes.
 - Rxjava
 - Recyclerview
 
-###  The flow Schema Of Recipes Application
+###  The flow Schema Of Recipes Application  
+<img width="550" alt="Screenshot 2019-08-28 at 01 04 30" src="https://user-images.githubusercontent.com/38051809/63814112-0f129500-c930-11e9-92d9-653a078a4857.png">
 
 ###  Activities - Fragment- Classes
 
